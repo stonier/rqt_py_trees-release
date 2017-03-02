@@ -1,0 +1,12 @@
+Source: ros-kinetic-rqt-py-trees
+Section: misc
+Priority: extra
+Maintainer: Michal Staniaszek <m.staniaszek@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-mock, ros-kinetic-catkin, ros-kinetic-py-trees, ros-kinetic-py-trees-msgs, ros-kinetic-rqt-bag
+Homepage: http://ros.org/wiki/rqt_py_trees
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rqt-py-trees
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, python-termcolor, ros-kinetic-geometry-msgs, ros-kinetic-py-trees, ros-kinetic-py-trees-msgs, ros-kinetic-qt-dotgraph, ros-kinetic-rospy, ros-kinetic-rqt-bag, ros-kinetic-rqt-graph, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-py, ros-kinetic-unique-id
+Description: rqt_py_trees provides a GUI plugin for visualizing py_trees behaviour trees based on rqt_tf_tree.
