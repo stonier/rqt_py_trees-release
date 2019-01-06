@@ -1,3 +1,26 @@
+## rqt_py_trees (melodic) - 0.3.1-0
+
+The packages in the `rqt_py_trees` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --rosdistro melodic rqt_py_trees` on `Sun, 06 Jan 2019 03:57:13 -0000`
+
+The `rqt_py_trees` package was released.
+
+Version of package(s) in repository `rqt_py_trees`:
+
+- upstream repository: https://github.com/stonier/rqt_py_trees.git
+- release repository: https://github.com/stonier/rqt_py_trees-release.git
+- rosdistro version: `0.3.0-0`
+- old version: `0.3.0-0`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.9`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## rqt_py_trees (melodic) - 0.3.0-0
 
 The packages in the `rqt_py_trees` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --rosdistro melodic rqt_py_trees` on `Sat, 25 Aug 2018 17:39:20 -0000`
