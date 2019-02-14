@@ -1,0 +1,12 @@
+Source: ros-melodic-rqt-py-trees
+Section: misc
+Priority: extra
+Maintainer: Michal Staniaszek <m.staniaszek@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-mock, ros-melodic-catkin, ros-melodic-py-trees, ros-melodic-py-trees-msgs, ros-melodic-rqt-bag
+Homepage: http://ros.org/wiki/rqt_py_trees
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rqt-py-trees
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pygraphviz, python-rospkg, python-termcolor, ros-melodic-geometry-msgs, ros-melodic-py-trees, ros-melodic-py-trees-msgs, ros-melodic-qt-dotgraph, ros-melodic-rospy, ros-melodic-rqt-bag, ros-melodic-rqt-graph, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-unique-id
+Description: rqt_py_trees provides a GUI plugin for visualizing py_trees behaviour trees based on rqt_tf_tree.
