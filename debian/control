@@ -1,0 +1,12 @@
+Source: ros-noetic-rqt-py-trees
+Section: misc
+Priority: optional
+Maintainer: Michal Staniaszek <m.staniaszek@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-mock, ros-noetic-catkin, ros-noetic-py-trees, ros-noetic-py-trees-msgs, ros-noetic-rqt-bag
+Homepage: http://ros.org/wiki/rqt_py_trees
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rqt-py-trees
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pygraphviz, python3-rospkg, python3-termcolor, ros-noetic-geometry-msgs, ros-noetic-py-trees, ros-noetic-py-trees-msgs, ros-noetic-qt-dotgraph, ros-noetic-rospy, ros-noetic-rqt-bag, ros-noetic-rqt-graph, ros-noetic-rqt-gui, ros-noetic-rqt-gui-py, ros-noetic-unique-id
+Description: rqt_py_trees provides a GUI plugin for visualizing py_trees behaviour trees based on rqt_tf_tree.
